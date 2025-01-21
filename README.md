@@ -1,5 +1,5 @@
 ## 1- Clonar o repositório
-<p>Para clonar o repositório, basta abrir um terminal e utilizar os seguintes comandos: git clone urlDoRepositorio.</p>
+<p>Para clonar o repositório, basta abrir um terminal e utilizar os seguintes comandos: "git clone https://github.com/ericklpps/controle-escritorio".</p>
 <br>
 <h2>2- Iniciar a API simulada</h2> 
 <p>Para iniciar, acesse o diretório do repositório com: cd contole-escritorio e depois inicie o json server com "json-server --watch db.json --port 3001".</p>
