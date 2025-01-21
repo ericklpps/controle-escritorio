@@ -1,10 +1,10 @@
 ## 1- Clonar o repositório
 <p>Para clonar o repositório, basta abrir um terminal e utilizar os seguintes comandos: git clone urlDoRepositorio</p>
 <br>
-# 2- Iniciar a API simulada
+<h2>2- Iniciar a API simulada</h2> 
 <p>Para iniciar, acesse o diretório do repositório com: cd contole-escritorio e depois inicie o json server com "json-server --watch db.json --port 3001"</p>
 <br>
-# 3- Iniciar a aplicação
+<h2>3- Iniciar a aplicação</h2>
 <p>Por fim, para iniciar a aplicação, devemos seguir no diretório do projeto e iniciar a aplicação com: "npm run dev"</p>
 <br>
 <hr>
@@ -13,8 +13,8 @@
 <br>
 <br>
 As tecnologias utilizadas foram: 
-<li>
-  <ul>React + Vite</ul>
-  <ul>Javascript</ul>
-  <ul>Json server para simular uma API</ul>
-</li>
+<ul>
+  <li>React + Vite</li>
+  <li>Javascript</li>
+  <li>Json server para simular uma API</li>
+</ul>
