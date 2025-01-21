@@ -12,7 +12,7 @@
 <p>O usuário pode alocar cadeiras aos colaboradores da empresa, podendo separar em mesas fixas e dinâmicas sendo elas, para colaboradores que utilizam seu espaço todo dia e aqueles que trabalham de maneira híbrida, que nem sempre estão presentes</p>
 <br>
 <br>
-As tecnologias utilizadas foram: 
+<h2>As tecnologias utilizadas foram:<h2/>
 <ul>
   <li>React + Vite</li>
   <li>Javascript</li>
