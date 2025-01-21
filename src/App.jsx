@@ -38,11 +38,11 @@ const App = () => {
   };
 
   return (
-    <div className="p-4">
-      <h1 className="text-center text-2xl font-bold mb-6">Controle de Lugares no Escritório</h1>
+    <div className="p-4 bg-blue-600">
+      <h1 className="text-center text-2xl font-bold mb-6 text-white">CONTROLE DE LUGARES</h1>
       <hr></hr>
       <br></br>
-      <h2 className="text-center text-2xl font-bold mb-6">Sala Diretoria</h2>
+      <h2 className="text-center text-2xl font-bold mb-6 text-white">SALA DIRETORIA</h2>
       <br></br>
       <div className="grid grid-cols-4 gap-6 place-items-center">
         {mesas
