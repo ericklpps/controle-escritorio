@@ -1,9 +1,9 @@
 {
-  "mesas": [
+  "mesasEscritorio": [
     {
       "id": "32",
-      "nome": "",
-      "tipo": "dinamica"
+      "nome": "João",
+      "tipo": "fixa"
     },
     {
       "id": "31",
@@ -157,6 +157,60 @@
     },
     {
       "id": "1",
+      "nome": "",
+      "tipo": "dinamica"
+    }
+  ],
+  "mesasComercial": [
+    {
+      "id": "1",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "2",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "3",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "4",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "5",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "6",
+      "nome": "",
+      "tipo": "dinamica"
+    }
+  ],
+  "mesasRH": [
+    {
+      "id": "1",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "2",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "3",
+      "nome": "",
+      "tipo": "dinamica"
+    },
+    {
+      "id": "4",
       "nome": "",
       "tipo": "dinamica"
     }
