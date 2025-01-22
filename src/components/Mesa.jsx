@@ -9,10 +9,22 @@ const Mesa = ({ mesa, onAdicionar, onEditar, onExcluir }) => {
     if (nome) onAdicionar(mesa.id, nome, tipo);
   };
 
+  const handleEditar = () => {
+    if (mesa.tipo === "fixa") {
+      const senha = prompt("Digite a senha do administrador para editar:");
+      if (senha !== "@m1g0") {
+        return alert("Senha incorreta! Edição não permitida.");
+      }
+    }
+    onEditar(mesa.id);
+  };
+
   const handleExcluir = () => {
     if (mesa.tipo === "fixa") {
-      const senha = prompt("Digite a senha do administrador:");
-      if (senha !== "@m1g0") return alert("Senha incorreta!");
+      const senha = prompt("Digite a senha do administrador para excluir:");
+      if (senha !== "@m1g0") {
+        return alert("Senha incorreta! Exclusão não permitida.");
+      }
     }
     onExcluir(mesa.id);
   };
@@ -41,7 +53,7 @@ const Mesa = ({ mesa, onAdicionar, onEditar, onExcluir }) => {
             <>
               <button
                 className="bg-blue-500 text-white px-2 py-1 text-sm rounded hover:bg-blue-600 transition-all"
-                onClick={() => onEditar(mesa.id)}
+                onClick={handleEditar}
               >
                 Editar
               </button>

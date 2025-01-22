@@ -47,7 +47,7 @@ const Comercial = () => {
 
   return (
     <div className="min-h-screen p-4 bg-blue-600 text-black">
-      <h1 className="text-center text-2xl font-bold mb-6">
+      <h1 className="text-center text-2xl font-bold mb-6 text-white">
         CONTROLE DE LUGARES - COMERCIAL
       </h1>
       <div className="grid grid-cols-3 gap-6 place-items-center">

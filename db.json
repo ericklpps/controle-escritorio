@@ -2,8 +2,8 @@
   "mesasEscritorio": [
     {
       "id": "32",
-      "nome": "João",
-      "tipo": "fixa"
+      "nome": "",
+      "tipo": "dinamica"
     },
     {
       "id": "31",
