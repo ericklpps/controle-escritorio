@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Mesa from "../components/Mesa";
 import api from "../services/api";
-import BotaoResetar from "../components/BotaoResetar";
 
 const Comercial = () => {
   const [mesasComercial, setMesasComercial] = useState([]);
@@ -34,7 +33,7 @@ const Comercial = () => {
     );
   };
 
-  const resetarTodas = () => {
+  const resetarDinamicas = () => {
     mesasComercial.forEach((mesa) => {
       api.put(`/mesasComercial/${mesa.id}`, { id: mesa.id, nome: "", tipo: "dinamica" }).then(() => {
         setMesasComercial((prev) =>
@@ -46,11 +45,6 @@ const Comercial = () => {
     });
   };
 
-  const resetarDinamicas = () => {
-    mesasRH
-      .filter((mesa) => mesa.tipo === "dinamica")
-      .forEach((mesa) => excluirUsuario(mesa.id));
-  };
   
   return (
     <div className="min-h-screen p-4 bg-blue-600 text-black">

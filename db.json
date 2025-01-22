@@ -7,8 +7,8 @@
     },
     {
       "id": "31",
-      "nome": "Anderson",
-      "tipo": "fixa"
+      "nome": "",
+      "tipo": "dinamica"
     },
     {
       "id": "30",
@@ -169,8 +169,8 @@
     },
     {
       "id": "2",
-      "nome": "João",
-      "tipo": "fixa"
+      "nome": "",
+      "tipo": "dinamica"
     },
     {
       "id": "3",
@@ -196,13 +196,13 @@
   "mesasRH": [
     {
       "id": "1",
-      "nome": "Erick",
-      "tipo": "fixa"
+      "nome": "",
+      "tipo": "dinamica"
     },
     {
       "id": "2",
-      "nome": "Gilson",
-      "tipo": "fixa"
+      "nome": "",
+      "tipo": "dinamica"
     },
     {
       "id": "3",
