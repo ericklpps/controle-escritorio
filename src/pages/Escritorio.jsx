@@ -41,7 +41,7 @@ const Escritorio = () => {
 
   return (
     <div className="p-4 bg-blue-600">
-      <h2 className="text-center text-2xl font-bold mb-6 text-white">Escritório</h2>
+      <h2 className="text-center text-2xl font-bold mb-6 text-white">CONTORLE DE LUGARES - ESCRITÓRIO</h2>
       <div className="grid grid-cols-4 gap-6 place-items-center">
         {mesas.map((mesa) => (
           <Mesa

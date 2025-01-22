@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Mesa from "../components/Mesa";
 import api from "../services/api";
+import BotaoResetar from "../components/BotaoResetar";
 
 const Comercial = () => {
   const [mesasComercial, setMesasComercial] = useState([]);
@@ -45,6 +46,12 @@ const Comercial = () => {
     });
   };
 
+  const resetarDinamicas = () => {
+    mesasRH
+      .filter((mesa) => mesa.tipo === "dinamica")
+      .forEach((mesa) => excluirUsuario(mesa.id));
+  };
+  
   return (
     <div className="min-h-screen p-4 bg-blue-600 text-black">
       <h1 className="text-center text-2xl font-bold mb-6 text-white">
@@ -64,7 +71,7 @@ const Comercial = () => {
       <div className="mt-10 flex justify-center">
         <button
           className="bg-red-600 text-white px-4 py-2 rounded shadow-lg hover:bg-red-700 transition-all"
-          onClick={resetarTodas}
+          onClick={resetarDinamicas}
         >
           Resetar Todas as Mesas
         </button>
